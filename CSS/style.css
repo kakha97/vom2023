@@ -1,0 +1,86 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;   
+}
+
+body {
+    font-family: 'FiraGO';
+    background: #F5F5F5;
+}
+
+.header {
+    height: 70px;
+    background-color: rgba(21, 154, 228, 1);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header p {
+    font-size: 18px;
+    color: white;
+    text-align: center;
+}
+
+.old-tbilisi {
+    background-image: url(../assets/old-tbilisi.png);
+    width: 100%;
+    height: 473px;
+    background-repeat: repeat-y;
+    background-position: center;
+    margin-top: 40px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.old-tbilisi-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 473px;
+    /* margin-right: 270px; */
+}
+
+.old-tbilisi-text h1 {
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 96px;
+    color: #FFFFFF;
+    font-family: 'Hiragino Kaku Gothic StdN';
+    letter-spacing: 10px;
+}
+
+.old-tbilisi-text h2 {
+    color: #FFFFFF;
+    font-family: 'Hiragino Kaku Gothic StdN';
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 48px;
+    letter-spacing: 5px;
+    margin-top: 14px;
+}
+
+.paterns-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.paterns {
+font-family: 'Hiragino Kaku Gothic StdN';
+font-weight: 800;
+font-size: 32px;
+line-height: 48px;
+background: linear-gradient(92.51deg, #22C66B 2.46%, #129EED 98.95%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+
+}
+
