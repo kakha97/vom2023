@@ -6,7 +6,8 @@
 
 body {
     font-family: 'FiraGO';
-    background: #F5F5F5;
+    background: white;
+    /* background: #F5F5F5; */
 }
 
 .header {
@@ -110,3 +111,21 @@ body {
     margin-top: 5px;
 }
 
+.isvm {
+    width: 290px;
+    height: 88px;
+    background: white;
+}
+
+.isvm-text {
+    padding-bottom: 32px;
+}
+
+.isvm-container {
+    display: flex;
+    justify-content: center;
+}
+
+.shota {
+    padding-left: 91px;
+}
