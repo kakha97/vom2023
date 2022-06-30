@@ -90,5 +90,23 @@ body {
     padding-top: 20px;
 }
 
+.paterns-cover-blue {
+    width: 49px;
+    border: #043CAA 5px solid;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
 
+.paterns-cover-green {
+    width: 42px;
+    border: #1BC768 5px solid;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.paterns-cover-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
 
