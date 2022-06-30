@@ -31,9 +31,6 @@ body {
     background-repeat: repeat-y;
     background-position: center;
     margin-top: 40px;
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
 }
 
 .old-tbilisi-text {
@@ -42,7 +39,6 @@ body {
     align-items: center;
     flex-direction: column;
     height: 473px;
-    /* margin-right: 270px; */
 }
 
 .old-tbilisi-text h1 {
@@ -73,14 +69,26 @@ body {
 }
 
 .paterns {
-font-family: 'Hiragino Kaku Gothic StdN';
-font-weight: 800;
-font-size: 32px;
-line-height: 48px;
-background: linear-gradient(92.51deg, #22C66B 2.46%, #129EED 98.95%);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-background-clip: text;
-
+    background-image: url(../assets/Partners.png);
+    width: 329px;
+    height: 96px;
+    background-repeat: no-repeat;
+    font-family: 'Hiragino Kaku Gothic StdN';
+    font-weight: 800;
+    font-size: 32px;
+    text-align: center;
 }
+
+.paterns-text {
+    font-family: 'Hiragino Kaku Gothic StdN';
+    font-weight: 800;
+    font-size: 32px;
+    background: linear-gradient(92.51deg, #22C66B 2.46%, #129EED 98.95%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    padding-top: 20px;
+}
+
+
 
