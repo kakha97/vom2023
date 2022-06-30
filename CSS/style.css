@@ -129,3 +129,61 @@ body {
 .shota {
     padding-left: 91px;
 }
+
+.article-title{
+    font-family: 'Hiragino Kaku Gothic StdN';
+    background: linear-gradient(92.51deg, #22C66B 2.46%, #129EED 28.95%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.paterns-cover-blue1 {
+    width: 66px;
+    border: #043CAA 5px solid;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+.paterns-cover-green1 {
+    width: 57px;
+    border: #1BC768 5px solid;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.paterns-cover-container1 {
+    display: flex;
+    margin-top: 2px;
+}
+
+.ellipse-container {
+    width: 131px;
+    height: 132.47px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    
+}
+
+.img-ellipse {
+    width: 534px;
+    height: 346px;
+    background-image: url(../assets/ExpoGeorgia-Tbilis.png);
+}
+
+.ellipse {
+    width: 17.17px;
+    height: 17.17px;
+    border: 1px solid #1FBE87;
+    border-radius: 50%;
+}
+
+.article-container{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-left: 74px;
+    padding-right: 43px;
+    padding-top: 100px;
+        
+}
